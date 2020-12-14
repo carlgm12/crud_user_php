@@ -1,5 +1,5 @@
 <?php
-	class Conexion{
+	class Conexion {
 		private $host;
 		private $user;
 		private $password;
@@ -8,11 +8,12 @@
 		public function __construct(){
 			$this->host     ="localhost"; //
 			$this->user     ="root"; //Usuario Base de datos
-			$this->password =""; //Contraseña de usuario de base de datos
-			$this->dataBase ="crud"; //Nombre de la base de datos
+			$this->password ="12345678"; //Contraseña de usuario de base de datos
+			$this->dataBase ="usuario_bd"; //Nombre de la base de datos
 		}
 
 		public function conectarse(){
+			//echo phpinfo();exit();
 			$enlace = mysqli_connect($this->host, $this->user, $this->password, $this->dataBase);
 			if($enlace){
 				// echo "Conexion exitosa";	//si la conexion fue exitosa nos muestra este mensaje como prueba, despues lo puedes poner comentarios de nuevo: //
@@ -22,4 +23,4 @@
 			return($enlace);
 			// mysqli_close($enlace); //cierra la conexion a nuestra base de datos, un ounto de seguridad importante.
 		}
-	}
+	}		

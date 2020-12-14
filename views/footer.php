@@ -3,8 +3,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col text-center">
-			<p>Desarrollado por Andr&eacute;s M.</p>
-			<p>Visita <a href="http://codigoweblibre.blogspot.com">codigoweblibre.blogspot.com</a></p>
+			<p>Desarrollado por Carlos Gonzalez.</p>			
 		</div>
 	</div>
 </div>
