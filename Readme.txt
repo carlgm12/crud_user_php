@@ -8,3 +8,5 @@
 *Ejecucion:
 -Iniciar el servidor Wed Xampp.
 -Acceder a la siguiente Ruta:http://localhost/CRUD_USER_PHP/.
+-Super Usuario:fulanito pass:1234
+-Usuario Regular:carlosM pass:12
